@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotografía</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="contenedor">
+      <img src="imagenes/icono.png" id="logo" alt="">
+      <h1>Arte fotográfico</h1>
+      <button class="menu-toggle">☰</button>
+      <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="#">Catálogo</a>
+        <a href="#">Blog</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section id="banner">
+      <img src="imagenes/banner.jpg">
+
+      <div class="contenedor">
+        <h2>Fotografía & Fotomontaje</h2>
+        <p>Fotografía tus sueños</p>
+        <a href="#">Leer más</a>
+      </div>
+    </section>
+
+
+    <section id="bienvenidos">
+      <div class="contenedor">
+        <h2>BIENVENIDOS A NUESTRO CLUB</h2>
+
+        <p>
+          El fotomontaje transforma la realidad fusionando imágenes
+          para construir nuevos significados y narrativas.
+        </p>
+
+      </div>
+    </section>
+
+
+    <section id="blog">
+
+      <h3>Lo último de nuestro blog</h3>
+
+      <div class="contenedor">
+
+        <article>
+          <img src="imagenes/camara.jpg">
+          <h4>Escoge tu cámara favorita</h4>
+        </article>
+
+        <article>
+          <img src="imagenes/camara2.jpg">
+          <h4>Photoshop es tu aliado</h4>
+        </article>
+
+        <article>
+          <img src="imagenes/palomitas.jpg">
+          <h4>Encuentra los recursos que necesitas</h4>
+        </article>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player"
+          frameborder="0" allowfullscreen>
+        </iframe>
+
+      </div>
+
+    </section>
+
+
+    <section id="info">
+
+      <h3>
+        La fotografía artística captura la esencia de una visión creativa.
+      </h3>
+
+      <div class="contenedor">
+
+        <div class="info-foto">
+          <img src="imagenes/1.jpg">
+          <h4>Conceptual</h4>
+        </div>
+
+        <div class="info-foto">
+          <img src="imagenes/2.jpg">
+          <h4>Retrato</h4>
+        </div>
+
+        <div class="info-foto">
+          <img src="imagenes/3.jpg">
+          <h4>Documental</h4>
+        </div>
+
+        <div class="info-foto">
+          <img src="imagenes/4.jpg">
+          <h4>Bodegón</h4>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div class="contenedor">
+
+      <p class="copy">
+        Arte fotográfico
+        <a href="https://www.freepik.es/serie/36295082" target="_blank">
+          Freepik. Serie 36295082
+        </a>
+        © 2026
+      </p>
+
+      <div class="sociales">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-google-plus-square"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+<script>
+  const boton = document.querySelector(".menu-toggle");
+  const menu = document.querySelector(".menu");
+
+  boton.addEventListener("click", function () {
+    menu.classList.toggle("activo");
+  });
+</script>
+
+</html>
